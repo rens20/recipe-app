@@ -1,0 +1,42 @@
+body{
+    font-size:  'arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f4f4f4;
+}
+#app{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.seacrh-conatiner, .filter-conatiner{
+    margin-bottom: 20px;
+}
+input, button,select{
+    margin-right:10px;
+    padding: 10px;
+    font-size: 16px;
+}
+button{
+    cursor:pointer
+}
+button:hover{
+    background: rgb(2, 233, 56);
+}
+.recipe{
+    border:1px solid #ddd;
+    padding:10px;
+    margin-bottom:10px;
+    background: #fff;
+}
+.recipe img{
+    max-width:100%;
+    height: auto;
+}
+
+.recipe h2{
+    margin-bottom: 5px;
+}
+
+.recipe p{
+    margin-bottom: 0;
+}
